@@ -1,0 +1,21 @@
+{
+  "kind": "collectionType",
+  "collectionName": "pcategories",
+  "info": {
+    "name": "pcategory"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true
+  },
+  "attributes": {
+    "name": {
+      "type": "string",
+      "required": true
+    },
+    "people": {
+      "via": "pcategory",
+      "collection": "person"
+    }
+  }
+}

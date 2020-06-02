@@ -1,0 +1,18 @@
+{
+  "collectionName": "components_duration_days",
+  "info": {
+    "name": "days",
+    "icon": "chevron-circle-down"
+  },
+  "options": {},
+  "attributes": {
+    "starts": {
+      "type": "datetime",
+      "required": true
+    },
+    "ends": {
+      "type": "datetime",
+      "required": true
+    }
+  }
+}
